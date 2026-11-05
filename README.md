@@ -34,7 +34,7 @@ Or open `index.html` directly in a browser (mailto forms work either way; some b
 Both forms on `start.html`:
 
 1. Intercept submit in `js/main.js`
-2. Build a `mailto:rbsledmuseum@gmail.com` link with prefilled subject and body
+2. Build a `mailto:deeprootsheritage@gmail.com` link with prefilled subject and body
 3. Open the visitor’s email client
 
 Each form also has `action="https://formspree.io/f/YOUR_FORM_ID"` as a placeholder.
@@ -44,7 +44,7 @@ Each form also has `action="https://formspree.io/f/YOUR_FORM_ID"` as a placehold
 1. Create a free form at https://formspree.io/
 2. Replace `YOUR_FORM_ID` in both forms’ `action` attributes
 3. In `js/main.js`, either remove the mailto submit handler or gate it so native POST to Formspree runs instead
-4. Confirm submissions arrive at `rbsledmuseum@gmail.com`
+4. Confirm submissions arrive at `deeprootsheritage@gmail.com`
 
 Other options: Netlify Forms, Basin, Google Forms embed, or a simple Cloudflare Worker / serverless function.
 

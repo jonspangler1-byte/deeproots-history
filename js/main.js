@@ -11,7 +11,7 @@
 
   // Mailto form builder: packs fields into a prefilled email body
   function buildMailto(form) {
-    const to = form.getAttribute("data-mailto") || "rbsledmuseum@gmail.com";
+    const to = form.getAttribute("data-mailto") || "deeprootsheritage@gmail.com";
     const subject = form.getAttribute("data-subject") || "Deep Roots inquiry";
     const lines = [];
     const fd = new FormData(form);
@@ -50,7 +50,7 @@
       if (note) {
         note.hidden = false;
         note.textContent =
-          "If your email app did not open, copy this message and send it to rbsledmuseum@gmail.com — or wire the form to Formspree (see README).";
+          "If your email app did not open, copy this message and send it to deeprootsheritage@gmail.com — or wire the form to Formspree (see README).";
       }
     });
   });
