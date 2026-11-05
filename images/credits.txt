@@ -1,0 +1,77 @@
+# Image credits — Deep Roots Historical Research and Genealogy website
+
+All images are public-domain or free-licensed historical works from Wikimedia Commons,
+the Library of Congress, DPLA, or related open collections. None are personal photos
+of Jonathan Spangler or Rosebud Sled Museum artifacts.
+
+## hero-declaration.jpg
+- Title: Declaration of Independence (1819), by John Trumbull
+- Source: https://commons.wikimedia.org/wiki/File:Declaration_of_Independence_(1819),_by_John_Trumbull.jpg
+- License: Public domain (US)
+- Use: Home hero background
+
+## washington-trumbull.jpg
+- Title: George Washington by John Trumbull (1780)
+- Source: https://commons.wikimedia.org/wiki/File:George_Washington_by_John_Trumbull_(1780).jpg
+- License: Public domain (US)
+- Use: About page / lineage service card
+
+## civil-war-group.jpg
+- Title: Company E of the 4th United States “Colored" Infantry Regiment, at Fort Lincoln, Washington, D.C. c. 1864
+- Source: Wikimedia Commons (LOC-derived photograph)
+- License: Public domain (US)
+- Use: Family research / Civil War era service card
+
+## family-portrait.jpg
+- Title: Jones Family Portrait (approximately 1890) — DPLA
+- Source: https://commons.wikimedia.org/wiki/File:Jones_Family_Portrait_(approximately_1890)_-_DPLA_-_a1f8cfbefefa78b74a5ab47dd85366d9.jpg
+- License: Public domain / DPLA
+- Use: Family history / books section
+
+## reading-room.jpg
+- Title: LOC Main Reading Room (Carol M. Highsmith)
+- Source: https://commons.wikimedia.org/wiki/File:LOC_Main_Reading_Room_Highsmith.jpg
+- License: Public domain (US government work / Highsmith donation as applicable on Commons)
+- Use: Page banners / research atmosphere
+
+## loc-reading-alcove.jpg
+- Title: Library of Congress main reading room alcove 4
+- Source: https://commons.wikimedia.org/wiki/File:Library_of_Congress_main_reading_room_alcove_4.jpg
+- License: Public domain / free license per Commons
+- Use: Record retrieval / about sidebar
+
+## handwritten-doc.jpg
+- Title: Emancipation Proclamation (WDL2714)
+- Source: https://commons.wikimedia.org/wiki/File:Emancipation_Proclamation_WDL2714.jpg
+- License: Public domain (US)
+- Use: Documents / house history / pricing banner
+
+## census-sheet.jpg
+- Title: Pennsylvania — Erie County, Enumeration District 128, Sheet No. 9B (1910 census)
+- Source: Wikimedia Commons / DPLA
+- License: Public domain (US)
+- Use: Services — record research visual
+
+## us-map.jpg
+- Title: 1855 Colton Map of the United States (Geographicus)
+- Source: https://commons.wikimedia.org/wiki/File:1855_Colton_Map_of_the_United_States_-_Geographicus_-_UnitedStates-colton-1855.jpg
+- License: Public domain
+- Use: House histories / geographic focus
+
+## mayflower.jpg
+- Title: Mayflower in Plymouth Harbor, by William Halsall
+- Source: https://commons.wikimedia.org/wiki/File:Mayflower_in_Plymouth_Harbor,_by_William_Halsall.jpg
+- License: Public domain (US)
+- Use: Lineage society / Mayflower service card
+
+## mayflower-compact.jpg
+- Title: The Mayflower Compact, 1620 (US Capitol art / Flickr USCapitol)
+- Source: https://commons.wikimedia.org/wiki/File:Flickr_-_USCapitol_-_The_Mayflower_Compact,_1620.jpg
+- License: Public domain (US government)
+- Use: About / lineage trust strip
+
+## archive-books.jpg
+- Title: Catullus books, NYPL Rose Main Reading Room
+- Source: Wikimedia Commons
+- License: See Commons page (free cultural work)
+- Use: Talks / workshops / books section

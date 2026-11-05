@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Start / Contact — Deep Roots Historical Research and Genealogy</title>
+  <meta name="description" content="Request a free 30-minute genealogy consultation or submit a project inquiry." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <span class="brand-name">Deep Roots</span>
+        <span class="brand-tag">Historical Research &amp; Genealogy</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      <nav class="nav" id="site-nav">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="about.html">About Me</a>
+        <a class="nav-cta" href="start.html" aria-current="page">Free consult</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="page-banner">
+    <div class="hero-bg" style="background-image:url('images/archive-books.jpg')"></div>
+    <div class="container">
+      <h1>Start here</h1>
+      <p class="lead">Free 30-minute consultation, or a fuller project inquiry when you already know what you need.</p>
+    </div>
+    <div class="container hero-credit">Historic books in a research reading room — see images/credits.txt</div>
+  </section>
+
+  <section class="section">
+    <div class="container" style="max-width:820px">
+      <p>Email works too: <a href="mailto:rbsledmuseum@gmail.com">rbsledmuseum@gmail.com</a>. Forms below open a prefilled message in your email app (mailto). To switch later to Formspree or another backend, see the site README.</p>
+
+      <form class="form-panel" id="consult" data-mailto="rbsledmuseum@gmail.com" data-subject="Deep Roots — Free 30-minute consultation request"
+            action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        <h2>Free 30-minute consultation</h2>
+        <p class="muted">No deposit required for the call. We’ll clarify goals, fit, and rough scope.</p>
+
+        <label for="c-name">Name *</label>
+        <input id="c-name" name="Name" type="text" required autocomplete="name" />
+
+        <label for="c-email">Email *</label>
+        <input id="c-email" name="Email" type="email" required autocomplete="email" />
+
+        <label for="c-phone">Phone</label>
+        <input id="c-phone" name="Phone" type="tel" autocomplete="tel" />
+
+        <label for="c-tz">Time zone *</label>
+        <input id="c-tz" name="Time zone" type="text" required placeholder="e.g. America/Chicago (Central)" />
+
+        <label for="c-times">Preferred times *</label>
+        <textarea id="c-times" name="Preferred times" required placeholder="Weekday evenings, Saturday mornings, etc."></textarea>
+
+        <label for="c-goal">Brief research goal *</label>
+        <textarea id="c-goal" name="Research goal" required placeholder="What do you hope to learn or prove?"></textarea>
+
+        <!-- Formspree helpers (ignored by mailto path) -->
+        <input type="hidden" name="_subject" value="Deep Roots — Free 30-minute consultation request" />
+
+        <div class="form-actions">
+          <button class="btn btn-primary" type="submit">Send consult request</button>
+        </div>
+        <p class="form-hint">Submit opens your email client with a prefilled message to rbsledmuseum@gmail.com.</p>
+        <p class="form-sent-note muted" hidden></p>
+      </form>
+
+      <form class="form-panel" id="intake" data-mailto="rbsledmuseum@gmail.com" data-subject="Deep Roots — Project inquiry / intake"
+            action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        <h2>Project inquiry / intake</h2>
+        <p class="muted">Use this when you are ready to describe the job. A scope letter and deposit details follow after we talk.</p>
+
+        <label for="i-name">Name *</label>
+        <input id="i-name" name="Name" type="text" required autocomplete="name" />
+
+        <label for="i-email">Email *</label>
+        <input id="i-email" name="Email" type="email" required autocomplete="email" />
+
+        <label for="i-phone">Phone</label>
+        <input id="i-phone" name="Phone" type="tel" autocomplete="tel" />
+
+        <fieldset style="border:none;padding:0;margin:0">
+          <legend style="font-weight:650;font-size:0.92rem;margin:0.85rem 0 0.35rem">Services of interest *</legend>
+          <div class="checkbox-group">
+            <label><input type="checkbox" name="Services" value="Lineage society application" /> Lineage society application (DAR / SAR / Mayflower / other)</label>
+            <label><input type="checkbox" name="Services" value="Eligibility check only" /> Eligibility check only</label>
+            <label><input type="checkbox" name="Services" value="Family history research" /> Family history research</label>
+            <label><input type="checkbox" name="Services" value="House / property history" /> House / property history</label>
+            <label><input type="checkbox" name="Services" value="Record retrieval" /> Record retrieval</label>
+            <label><input type="checkbox" name="Services" value="Family history book" /> Family history book</label>
+            <label><input type="checkbox" name="Services" value="Talk or workshop" /> Talk or workshop</label>
+            <label><input type="checkbox" name="Services" value="Not sure yet" /> Not sure yet — need advice</label>
+          </div>
+        </fieldset>
+
+        <label for="i-ancestors">Known ancestors / starting point *</label>
+        <textarea id="i-ancestors" name="Known ancestors" required placeholder="Names, dates, places you already have — and what is missing."></textarea>
+
+        <label for="i-geo">Geographic focus *</label>
+        <input id="i-geo" name="Geographic focus" type="text" required placeholder="e.g. colonial New England; Cook County IL; German immigrants to PA" />
+
+        <label for="i-deadline">Deadline or target date</label>
+        <input id="i-deadline" name="Deadline" type="text" placeholder="Society meeting, reunion, none" />
+
+        <label for="i-budget">Budget band (optional)</label>
+        <select id="i-budget" name="Budget band">
+          <option value="">Prefer to discuss on the call</option>
+          <option>$175–$500</option>
+          <option>$500–$1,000</option>
+          <option>$1,000–$2,500</option>
+          <option>$2,500+</option>
+        </select>
+
+        <label for="i-notes">Anything else</label>
+        <textarea id="i-notes" name="Additional notes" placeholder="Documents you already have, DNA tests, prior research, sensitivity notes…"></textarea>
+
+        <input type="hidden" name="_subject" value="Deep Roots — Project inquiry / intake" />
+
+        <div class="form-actions">
+          <button class="btn btn-ink" type="submit">Send project inquiry</button>
+        </div>
+        <p class="form-hint">Reminder: research does not start until a deposit of at least $500 (or full payment on smaller flat items) is received after we agree on scope.</p>
+        <p class="form-sent-note muted" hidden></p>
+      </form>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>Deep Roots Historical Research and Genealogy</h3>
+        <p>Jonathan Spangler · Schaumburg, Illinois area · Remote clients welcome</p>
+        <p><a href="mailto:rbsledmuseum@gmail.com">rbsledmuseum@gmail.com</a></p>
+      </div>
+      <div>
+        <h3>Explore</h3>
+        <ul>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="pricing.html">Pricing</a></li>
+          <li><a href="about.html">About Me</a></li>
+          <li><a href="start.html">Start / Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Notes</h3>
+        <ul>
+          <li>Preliminary site — Nov 2026</li>
+          <li><a href="images/credits.txt">Image credits</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">© 2026 Jonathan Spangler. Deep Roots Historical Research and Genealogy.</div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
