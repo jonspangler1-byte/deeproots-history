@@ -29,24 +29,14 @@ Or open `index.html` directly in a browser (mailto forms work either way; some b
 | `js/main.js` | Nav toggle + mailto form packing |
 | `images/` | Public-domain historical images + `credits.txt` |
 
-## Forms (current behavior)
+## Forms
 
-Both forms on `start.html`:
+Both forms on `start.html` POST to Formspree:
+- Consult: `https://formspree.io/f/mbggbzwl`
+- Project intake: `https://formspree.io/f/xdeejwbg`
 
-1. Intercept submit in `js/main.js`
-2. Build a `mailto:deeprootsheritage@gmail.com` link with prefilled subject and body
-3. Open the visitor’s email client
+Account login is in the vault as "Formspree - Deep Roots".
 
-Each form also has `action="https://formspree.io/f/YOUR_FORM_ID"` as a placeholder.
-
-### Wire Formspree later
-
-1. Create a free form at https://formspree.io/
-2. Replace `YOUR_FORM_ID` in both forms’ `action` attributes
-3. In `js/main.js`, either remove the mailto submit handler or gate it so native POST to Formspree runs instead
-4. Confirm submissions arrive at `deeprootsheritage@gmail.com`
-
-Other options: Netlify Forms, Basin, Google Forms embed, or a simple Cloudflare Worker / serverless function.
 
 ## Pricing copy used (summary)
 
